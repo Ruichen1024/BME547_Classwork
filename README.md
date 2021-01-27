@@ -3,11 +3,10 @@
 
 Provide some info on what git does
 
-### Subheading
-
-*First
-*Second
-*Third
-	+nice
-	+nice	
+## Subheading
+	*First
+	*Second
+	*Third
+		+nice
+		+nice	
 
