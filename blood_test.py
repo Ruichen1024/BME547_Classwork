@@ -21,10 +21,9 @@ def HDL_driver():
 
 def get_data():
     data = input("Enter the HDL level: ")
-    return data
+    return int(data)
 
 def analyze_data(d):
-    d = int(d)
     if d>=60:
         return "Normal"
     elif d>=40 and d<60:
@@ -33,7 +32,6 @@ def analyze_data(d):
         return "Low"
 
 def output_data(a, b):
-    a = int(a)
     print("Your HDL level is %d\n"%a)
     print("This level is %s\n"%b)
 
