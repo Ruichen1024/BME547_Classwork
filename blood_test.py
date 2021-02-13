@@ -62,4 +62,5 @@ def output_TCdata(a, b):
     print("Your Total cholesterol level is %d\n"%a)
     print("This level is %s\n"%b)
 
-interface()
+if __name__ == "__main__":
+    interface()
